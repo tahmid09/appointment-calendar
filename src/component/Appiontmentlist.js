@@ -1,15 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { createStore } from 'redux'
 import { connect } from 'react-redux'
 import { getAppointmentList, apponeintmentDetails  } from '../redux'
 import { Calendar, Badge } from 'antd';
 import { useHistory } from "react-router-dom";
 import Emitter from '../emitter';
-  
-  function getDaysInMonth (month,year) {
-   return new Date(year, month, 0).getDate();
-  };
-
   
   function getMonthData (value) {
     if (value.month() === 8) {

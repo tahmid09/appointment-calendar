@@ -1,35 +1,18 @@
 import React, { useState } from 'react';
-import { createStore } from 'redux'
-
 import Addappiontment from './Addappiontment'
 import Appiontmentlist from './Appiontmentlist'
 import Appointmentdetails from './Appointmentdetails'
-import {  useParams } from "react-router-dom"
 import { Layout, Menu, Breadcrumb } from 'antd';
-import { Row, Col, Modal, Button } from 'antd';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
-import { Calendar, Badge } from 'antd';
+import { Row, Col } from 'antd';
 
-import { Links, Link } from "react-router-dom"
-
-import {
-  Form,
-  Input,
-  Checkbox, 
-  Radio,
-  Select,
-  DatePicker,
-  InputNumber,
-} from 'antd';
 
 
 const Home = (props) => {
 
 
 
-    const { Header, Content, Sider } = Layout;
-    let { year, month } = useParams();
-    year = 2021
+    const { Header, Content } = Layout;
+  
 return (
         <Layout>
 

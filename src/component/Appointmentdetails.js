@@ -1,15 +1,11 @@
 import React,  { useState, useEffect } from 'react';
-import {  Modal, Button } from 'antd';
+import {  Modal } from 'antd';
 import { connect } from 'react-redux';
 import Emitter from '../emitter';
 
 function Appointmentdetails(props) {
     const [isModalVisible, setIsModalVisible] = useState(false);
     let details = props.details
-
-    const showModal = () => {
-        setIsModalVisible(true);
-      };
 
     const handleOk = () => {
         setIsModalVisible(false);

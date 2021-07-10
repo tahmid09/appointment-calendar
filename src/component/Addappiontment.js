@@ -6,8 +6,6 @@ import {  Modal, Button } from 'antd';
 import {
   Form,
   Input,
-  Checkbox, 
-  Radio,
   Select,
   DatePicker,
   InputNumber,

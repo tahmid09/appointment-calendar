@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { createStore } from 'redux'
-import { connect } from 'react-redux'
 import Home from './component/Home'
-import { useHistory } from "react-router-dom";
 
 import 'antd/dist/antd.css';
 import './App.css';
