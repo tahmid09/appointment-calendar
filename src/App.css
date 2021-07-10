@@ -15,3 +15,21 @@ ul.events li {
 .ant-picker-calendar .ant-radio-group {
   display: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .button-space-align button.ant-btn.ant-btn-primary {
+    margin-left: -47px;
+  }
+
+ 
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .button-space-align button.ant-btn.ant-btn-primary {
+    position: relative;
+    margin-top: 0;
+    margin-left: -47px;
+  }
+}
